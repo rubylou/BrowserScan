@@ -1,0 +1,2299 @@
+[ 2014-05-12T14:00:49+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.288805s ]
+INFO: [ route_check ] --END-- [ RunTime:0.289020s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.079799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.080031s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:1.558205s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.558455s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.123498s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.133711s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.143762s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.100825s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.502360s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.141969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.142125s ]
+
+[ 2014-05-12T14:01:03+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001933s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002112s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003013s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.176524s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=11,0,6,0&flash=13,0,0,206&java=1,7,0,51&qt=7,7,4,0&silver=5,1,30214,0&vlc=2,0,2,0&xunlei=1,0,0,2&alipay=1,0,0,2&qqmail=1,0,0,22&upeditor=2,0,9,0&','Windows','Mon, 12 May 2014 06:00:57 GMT') [ RunTime:0.680035s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014079s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000460s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000527s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003512s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2014-05-12T14:02:45+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001928s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.031617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031773s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002418s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001519s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002185s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001604s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007959s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001812s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001891s ]
+
+[ 2014-05-12T14:02:56+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001932s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002042s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003045s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004078s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','ie','10','reader=11,0,0,0&flash=13,0,0,206&java=1,7,0,51&qt=7,7,4,0&silver=5,1,30214,0&vlc=0,8,6i,0&alipay=2,5,5,2&baofeng=5,34,227,1111&kugou=7,5,7,5&','Windows','Mon, 12 May 2014 06:02:56 UTC') [ RunTime:0.050399s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018477s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018673s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001435s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001487s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006997s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001642s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001723s ]
+
+[ 2014-05-12T14:53:03+08:00 ] 127.0.0.1 /index.php/Index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004301s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004474s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002677s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003213s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002394s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010054s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003345s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003489s ]
+
+[ 2014-05-12T14:53:08+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001146s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014907s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001940s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000337s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003499s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001003s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001142s ]
+
+[ 2014-05-12T14:59:51+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003521s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003691s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003612s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023385s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002752s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003428s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002507s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.004080s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004197s ]
+
+[ 2014-05-12T15:00:53+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002082s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002846s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002946s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017773s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017922s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001409s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001286s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006943s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001717s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001797s ]
+
+[ 2014-05-12T15:00:55+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002795s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.035852s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/V3fbCYAtiIcv4XWAByEVztMY6RQOoQDM=&flash=U2FsdGVkX1+szFq7KBOeDoQSuhy6TcLH6PmfqJYf1sY=&java=U2FsdGVkX1+kYebsOu3P9O2E5B78LvVqJDUp250LmMc=&qt=U2FsdGVkX188og1X99Dd/n1NUG83OGutLThSfCbJJFc=&silver=U2FsdGVkX1+mt/S0MW8bDXDgclA0CSvi/tsMgKA/LfI=&vlc=U2FsdGVkX1+yi/JfQXPoOZDRO8385clcJWqnSoOoYZE=&xunlei=U2FsdGVkX1/jW9gZdLo1QAUFL/E2KOWmcJfBE151uAM=&alipay=U2FsdGVkX18P3lEntapXCaVVGj77pNiPuD8bunkif2Q=&qqmail=U2FsdGVkX1//1vB4fLxSULaE2ttAkEyPf40XGEOLdpo=&upeditor=U2FsdGVkX1+ukUp2frgY1YO2q8pOBRd6anfY/tbs2SM=&','Windows','Mon, 12 May 2014 07:00:55 GMT') [ RunTime:0.049358s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.045182s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045448s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.005108s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.005161s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.005042s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.006167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003119s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003273s ]
+
+[ 2014-05-12T15:01:45+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002844s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002742s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023970s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024168s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003227s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002449s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010795s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001833s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2014-05-12T15:01:56+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002994s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003119s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004658s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1+9DbUAb/VdOeQbtpGaWVLt5SS4ED4bkyo=&flash=U2FsdGVkX1+Ti7J7k+KZCXcM6AjDlFZEs16OWRUyBis=&java=U2FsdGVkX1/fxTlfleBOS8kvCeZ6rl2v0+lBKWRVZv4=&qt=U2FsdGVkX18oRG0gR47uSkFX21uyGS9l3FXg+dikQPw=&silver=U2FsdGVkX1+KCJnomPsmk1d7ytEx0u63+ttruOJKpro=&vlc=U2FsdGVkX1+6l9kdvt5ypzZyy5AmFS44egZ/9/kezUQ=&xunlei=U2FsdGVkX18YJHD4VtwWZf4n9dsZLuPzslQIpDo33Gc=&alipay=U2FsdGVkX1/0Fz8n9e7jofxLdtcF6R9CuholkGy4BRI=&qqmail=U2FsdGVkX191PBCoVE7VULBqsYTMrqznJXROy+5c4Ow=&upeditor=U2FsdGVkX1+0Poc1lP+9ETsDLaoZHcVwE1g46oieZqc=&','Windows','Mon, 12 May 2014 07:01:55 GMT') [ RunTime:0.053435s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032971s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033185s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003051s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003057s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002785s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002623s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011779s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002569s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002646s ]
+
+[ 2014-05-12T15:10:53+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001990s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002120s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004886s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003013s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016282s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016450s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002417s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001497s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001326s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001515s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006982s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001780s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001915s ]
+
+[ 2014-05-12T15:12:04+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003234s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003413s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002848s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023395s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002426s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002250s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002781s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010129s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002576s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002659s ]
+
+[ 2014-05-12T15:12:06+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002827s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002980s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002572s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004162s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX19sWrFzEdD24la+Y6chJi9aLtgeHVQ12wI=&flash=U2FsdGVkX1+OBsbLfz1Eh93ssujAgI8HmH/LJywvSHE=&java=U2FsdGVkX19ItnuDKnB/YwtjXhMlfLaX4y/mlXunA3Q=&qt=U2FsdGVkX184tjVHAssR+xofmC+32I0Tz4ZvnbiwUJ0=&silver=U2FsdGVkX19ru64Br6L4jbU2FunwHZKigGFCsN/qZgk=&vlc=U2FsdGVkX1+Ya6P8noOOkR71mtpu46e+oCohGEChzgs=&xunlei=U2FsdGVkX1+PImX61hTD9v6bDKiXLglwRhK5cCNVCmY=&alipay=U2FsdGVkX1/RfPls/6x71l34B16nWFUyI/07v7XSTyI=&qqmail=U2FsdGVkX1/OlLd5mV2WfIWKDt4kl/EjiGSSG0rSK/Y=&upeditor=U2FsdGVkX18g1uBb9dmKNndMusnwdS68SBG3zqMP1zc=&','Windows','Mon, 12 May 2014 07:12:06 GMT') [ RunTime:0.074738s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021307s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002228s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002102s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002185s ]
+
+[ 2014-05-12T15:12:18+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001901s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003519s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.055831s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003079s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016392s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002531s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001493s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002010s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007729s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001798s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001884s ]
+
+[ 2014-05-12T15:17:45+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002843s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002978s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004377s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002763s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020251s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002529s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002867s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002653s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010977s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002704s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002783s ]
+
+[ 2014-05-12T15:18:25+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002752s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003508s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003698s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004783s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003052s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016839s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016989s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002880s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001345s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007733s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001802s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2014-05-12T15:19:18+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003045s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002595s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002690s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004496s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002331s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020166s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020398s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002706s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002353s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002514s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010265s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001790s ]
+
+[ 2014-05-12T15:19:27+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003267s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003436s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003775s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003968s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024305s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002434s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002479s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000692s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-05-12T15:19:28+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002949s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002556s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002642s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004509s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/Zy+dSFgQENvqSLH8JEDBxfbqpnbSEYPM=&flash=U2FsdGVkX1+wPpyj/6HxO/KsF5tzWlT7mz0Z4Z/oPUk=&java=U2FsdGVkX1+0JHmOhOpDUj3EdgMovaBevB2qqlL5oH4=&qt=U2FsdGVkX1905AE0q3PkTrc9PvwxQcB9p89YD8SO2cI=&silver=U2FsdGVkX1/8KoSrYbca7KbMPA45VqKdLsjR9nz+PPs=&vlc=U2FsdGVkX18NphWjUSWfCwkWWH6NXhjDu+depBBay1I=&xunlei=U2FsdGVkX18F03e30JNjxlFCdpFxPluhpTRT77uXm6E=&alipay=U2FsdGVkX1/OUo++JTkNNl1gQ8901fEy6wfQKml4q54=&qqmail=U2FsdGVkX18jIBw8OYFcENAxFkXJZZQFYkAyq3IvgbM=&upeditor=U2FsdGVkX1+arNJ9XzTZM+ud6eaDPgpU6ylSAjyXnBI=&','Windows','Mon, 12 May 2014 07:19:28 GMT') [ RunTime:0.040674s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021869s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002767s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010363s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2014-05-12T15:19:35+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002022s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002151s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003104s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004723s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002794s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017040s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003027s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001830s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001645s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001638s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008497s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001660s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001739s ]
+
+[ 2014-05-12T15:23:50+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002869s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002995s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003114s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003275s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004522s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002947s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022872s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002821s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003316s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002352s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011323s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001865s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001944s ]
+
+[ 2014-05-12T15:27:56+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001969s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002098s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003050s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004321s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002611s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016398s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003687s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001680s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001392s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001950s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009020s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-05-12T15:28:21+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002173s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001687s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004234s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002642s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016649s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002412s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001301s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006910s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001716s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001793s ]
+
+[ 2014-05-12T15:28:41+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001553s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003546s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004977s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002985s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013665s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002432s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004019s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000669s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-05-12T15:34:57+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002281s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002479s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001998s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004828s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002670s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016628s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002724s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001705s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001362s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007691s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001897s ]
+
+[ 2014-05-12T15:37:25+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001884s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002829s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004220s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002732s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018478s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018632s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002437s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001439s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001503s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006923s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2014-05-12T15:38:56+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002347s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002498s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003182s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004216s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002508s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017749s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002585s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001438s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007057s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001640s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001718s ]
+
+[ 2014-05-12T15:39:30+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001997s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002930s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005253s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002718s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015756s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015938s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002825s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001576s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001405s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008065s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001890s ]
+
+[ 2014-05-12T15:39:33+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003054s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003179s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002663s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004185s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002606s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021213s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021369s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002517s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002366s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002230s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002730s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010076s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001810s ]
+
+[ 2014-05-12T15:40:02+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001317s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001496s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003368s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004623s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002808s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013578s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001955s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2014-05-12T15:40:21+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000962s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001085s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002727s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004636s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002649s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014729s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001990s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000632s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000417s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000542s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000676s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2014-05-12T15:40:45+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001018s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001160s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003747s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005899s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002490s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015143s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001984s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003555s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2014-05-12T15:41:09+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001381s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001537s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003393s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004746s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002936s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013519s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000538s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003920s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000755s ]
+
+[ 2014-05-12T15:42:11+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002091s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001747s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005025s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016210s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016382s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002509s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001895s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001797s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001846s ]
+
+[ 2014-05-12T15:42:26+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003170s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005548s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.004067s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026721s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026907s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002425s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002377s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002229s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010091s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002073s ]
+
+[ 2014-05-12T15:42:39+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000916s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015475s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015629s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002095s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000485s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000344s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003709s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000718s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2014-05-12T15:42:44+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001108s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001238s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004775s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002859s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016898s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017056s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002162s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000376s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003900s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000802s ]
+
+[ 2014-05-12T15:43:28+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001907s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002031s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002686s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004992s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002778s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016054s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016223s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002480s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001308s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007066s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002222s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002374s ]
+
+[ 2014-05-12T15:43:37+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002035s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002912s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005923s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003312s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019972s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020154s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002495s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001464s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007040s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001653s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001731s ]
+
+[ 2014-05-12T15:44:03+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002961s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003089s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002710s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004358s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002809s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020406s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002460s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002893s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002263s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002486s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010344s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-05-12T15:44:11+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001142s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001291s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002765s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004512s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002610s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016601s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001966s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000476s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000343s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003541s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-05-12T15:45:05+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001085s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001263s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002849s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004686s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002994s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013673s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002003s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000358s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000539s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003590s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001193s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001447s ]
+
+[ 2014-05-12T15:47:06+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002088s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001748s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005076s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002809s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016698s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016852s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001446s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001429s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001988s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007581s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001848s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2014-05-12T15:47:58+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004487s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004670s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003498s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004993s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002846s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018164s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018343s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002428s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001454s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007233s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001884s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001970s ]
+
+[ 2014-05-12T15:48:26+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001083s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001360s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004776s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003873s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016109s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000511s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000852s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000946s ]
+
+[ 2014-05-12T15:48:28+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001048s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001294s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004755s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002964s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012796s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012955s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002210s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-05-12T15:48:35+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002734s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004004s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002483s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017021s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017183s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003060s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002119s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001356s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001511s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008374s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001671s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001756s ]
+
+[ 2014-05-12T15:50:16+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002327s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002530s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003402s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004701s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003045s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018590s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003071s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001674s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001531s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008004s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002114s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2014-05-12T15:50:22+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002937s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002783s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004792s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002758s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002726s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002997s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011580s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001784s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2014-05-12T17:56:32+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003189s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003337s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003299s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.039200s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002970s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027491s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027646s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002684s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009654s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003996s ]
+INFO: [ view_end ] --END-- [ RunTime:0.004170s ]
+
+[ 2014-05-12T17:59:34+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002983s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003131s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002999s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003106s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004287s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002395s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021884s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002379s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002384s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002465s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009941s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001778s ]
+
+[ 2014-05-12T17:59:50+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003221s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003357s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003129s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004663s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002999s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021552s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002483s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002258s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010239s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001725s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001806s ]
+
+[ 2014-05-12T17:59:58+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003076s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002656s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005207s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002536s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022911s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003475s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003218s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002926s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012768s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2014-05-12T18:01:41+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003527s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002794s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004988s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002899s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020974s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021136s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002488s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002398s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002544s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010395s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001918s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002005s ]
+
+[ 2014-05-12T18:01:47+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003392s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003569s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004175s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004094s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003057s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021685s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002583s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002840s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002678s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010890s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000678s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000756s ]
+
+[ 2014-05-12T18:03:13+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003303s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003488s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005090s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002647s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022250s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002812s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002283s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002587s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010708s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001786s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001871s ]
+
+[ 2014-05-12T18:07:56+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001995s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002123s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002752s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004440s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002550s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019307s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019479s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002464s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001380s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007273s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002325s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002464s ]
+
+[ 2014-05-12T18:08:01+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000979s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002780s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005238s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003477s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014517s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000531s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000351s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004477s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000812s ]
+
+[ 2014-05-12T19:22:49+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.005159s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004329s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005567s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002958s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022258s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022415s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002705s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002707s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002297s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010484s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003166s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003278s ]
+
+[ 2014-05-12T19:23:17+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002586s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002739s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003310s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004873s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003142s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001759s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002232s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002206s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009135s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001767s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001847s ]
+
+[ 2014-05-12T19:24:11+08:00 ] 127.0.0.1 /index.php/Index/
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002678s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017319s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017518s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003662s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001668s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009616s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001844s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001949s ]
+
+[ 2014-05-12T19:24:14+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001389s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001545s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003925s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002235s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000346s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003808s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2014-05-12T19:24:21+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003043s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003203s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003124s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004365s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','ie','10','reader=U2FsdGVkX18bcV9ZhpAD857W8EPgOh9M5Wj0PmanH6g=&flash=U2FsdGVkX18GeqrcBVQBWkb7NKIC6KJg1Nis6xOtlTQ=&java=U2FsdGVkX1/39TmIsf/jtte77YcM8+Z/RWPlRZiLogM=&qt=U2FsdGVkX1/eA/cl2TPEmM3dNA78JKefvd4j9Dwglq8=&silver=U2FsdGVkX1/rw+lif0NXABlKxHAppL6cc+C9RPeER94=&vlc=U2FsdGVkX1+S2aTEq0VA9sjPndLUqwkOQ9LdXBlKeN4=&alipay=U2FsdGVkX18rq0DaK+WLzl0dpSFw2LpNK5QUgorRP68=&baofeng=U2FsdGVkX18FppClG+qVr9U+BTnTO6TqicfVpdMJ3C8=&kugou=U2FsdGVkX19oq6TP0W4kBiPGvfonaZqoPwvw+CJFsH8=&','Windows','Mon, 12 May 2014 11:24:20 UTC') [ RunTime:0.057339s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.035752s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036003s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002614s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002491s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002921s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010670s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002014s ]
+
+[ 2014-05-12T19:24:25+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001235s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001382s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003789s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005061s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003005s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014204s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014357s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002006s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000472s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000558s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004028s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000764s ]
+
+[ 2014-05-12T19:36:39+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002814s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002990s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.005096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005311s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004802s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002865s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019217s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002539s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001616s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002646s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001676s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008757s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001766s ]
+
+[ 2014-05-12T19:37:08+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003913s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004067s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003638s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003767s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023809s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023975s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003009s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002408s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002279s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002496s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010436s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002099s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002265s ]
+
+[ 2014-05-12T19:38:54+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001934s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002926s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004890s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002858s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017216s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002571s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001621s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002174s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001588s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008244s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001750s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001828s ]
+
+[ 2014-05-12T19:40:38+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004057s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004228s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003053s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004826s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.002518s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022558s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002514s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002798s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010350s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001693s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001775s ]
+
+[ 2014-05-12T19:41:47+08:00 ] 127.0.0.1 /index.php/Index/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002834s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003018s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002789s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004696s ]
+SQL: SELECT * FROM `scanrecord`  [ RunTime:0.003462s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002510s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001494s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007424s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001965s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002053s ]
+
+[ 2014-05-12T21:19:45+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003484s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026024s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026192s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002416s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002463s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003016s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003120s ]
+
+[ 2014-05-12T21:19:47+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005059s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18KydbiFli7r21K7LMmnjUpXwrzZNV4WyM=&flash=U2FsdGVkX1/iWuP+wFTNDZ+7REfUiQu1s1ulk3hTQc4=&java=U2FsdGVkX19q8OrxSpBghNyo6UctNUwaADMXa4kwHAc=&qt=U2FsdGVkX19OYVqsr','Windows','Mon, 12 May 2014 13:19:47 GMT') [ RunTime:0.053921s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013341s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013573s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002078s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000473s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000538s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003700s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000672s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000748s ]
+
+[ 2014-05-12T21:21:04+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002005s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002132s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003097s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003291s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018802s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018962s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002944s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001830s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008623s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002018s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002183s ]
+
+[ 2014-05-12T21:21:05+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002952s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004684s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1+lhQ19yYsLUs/urSth00Ndr9MA3mLT364=&flash=U2FsdGVkX18Y0cw+lmOr0Nrnj5L8PSRLRsAwjqAHgK8=&java=U2FsdGVkX193buuG7Jxa4TMsVLpbOyBIAmWWA7ax2MM=&qt=U2FsdGVkX18MaFslzWFlcb9hEjVK5kcK4+G74VUYOX0=&silver=U2FsdGVkX1+8Nl7Dg7nHNFxL9r+Iagygdxfxxk+bNzs=&vlc=U2FsdGVkX19skynIDW0TZ83UVgvm3/T15ov+38RFu8Q=&xunlei=U2FsdGVkX19vk/zRD3FMqgR4VHM67Ray4Mlf0uGG4Jc=&alipay=U2FsdGVkX19P7aBXCBve7hwV3A6hjrpiwk1jS5clCuw=&qqmail=U2FsdGVkX1+lhKoQVUY+UT/4Kls/u54697DZSHeBOmk=&upeditor=U2FsdGVkX1/nrH8ok/LKjwSY9rhocHPdgC5AqxSG7ig=&','Windows','Mon, 12 May 2014 13:21:05 GMT') [ RunTime:0.080479s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002826s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002436s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002294s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002459s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010258s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001667s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2014-05-12T21:39:32+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001966s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002096s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002825s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019180s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001361s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007232s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001779s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-05-12T21:39:34+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001021s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002884s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.006375s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1+eWPiAian46Ow88Ls7CgkNytb+atrgQmQ=&flash=U2FsdGVkX180LyNV9THaRn5g7Bvi+Wy8mlvtBAtD8Ss=&java=U2FsdGVkX1+NHfqkx1qIZNLJRlPfrVawPfe45Qbsus8=&qt=U2FsdGVkX1+mcr5n5sdVLxpbof6fQ1VtuzBrAbCYcGY=&silver=U2FsdGVkX1/Qz8uvx8cq1LSmUk8d5QGrd5nNjUrzL1c=&vlc=U2FsdGVkX18dn0PaifOMkxEzf2y3vNJgyVifZO6r+Hc=&xunlei=U2FsdGVkX1+yVX6RS6vIxf/LwQJgDCciWPrG9zj5Bgo=&alipay=U2FsdGVkX19KhHAy7R2VwzpJ5AETo8IHCuyWquLyN+4=&qqmail=U2FsdGVkX1/3w1xFN//8yHo20qM2jXjizNWGVZUiQaU=&upeditor=U2FsdGVkX181tGIUVNEIzCn2Xr7LVlKJi2hDX3FnMGM=&','Windows','Mon, 12 May 2014 13:39:34 GMT') [ RunTime:0.053474s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027787s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003559s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000803s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000615s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005714s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000939s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001060s ]
+
+[ 2014-05-12T21:47:36+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002588s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002741s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003552s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019194s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019356s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002842s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001455s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001581s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001783s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001861s ]
+
+[ 2014-05-12T21:49:49+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002508s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002694s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003036s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017629s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002545s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001482s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001347s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001530s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007120s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001686s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001763s ]
+
+[ 2014-05-12T21:49:52+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002866s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002983s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004459s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18fQbHPCcWEBxpAC1RRTMztgF9UKDqDYGk=&flash=U2FsdGVkX19fXHssqJWPhsPANb3jX7IpP5W/j5ys9qE=&java=U2FsdGVkX19OC4NxzizKTwNtz5NaVpJUx42wiqAEcQM=&qt=U2FsdGVkX19obrSMTSo/i9KR0LIzFti5k64LlZs/l/4=&silver=U2FsdGVkX18ACKXcUIzrFJU17N1VtA7/dffJ4al8v2c=&vlc=U2FsdGVkX19ZDgjDtsPMl5sPzu4KBV0w/VfBk9fAO7M=&xunlei=U2FsdGVkX19tt97ghkzdSMxhVg0QkHGEqfTNmeWs+nU=&alipay=U2FsdGVkX18VY8BBtPXnfONIwISb5sanIWbkfW53xwA=&qqmail=U2FsdGVkX1+Jyx5PtV9g/PU7uAnjrZxkKn2mWjWNAgY=&upeditor=U2FsdGVkX184aph1+LyOsjHAFEM2vEn0dJ8qoPsSAe8=&','Windows','Mon, 12 May 2014 13:49:51 GMT') [ RunTime:0.030535s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021406s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021586s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002551s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001727s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001814s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002063s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008465s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001975s ]
+
+[ 2014-05-12T21:50:24+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003363s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003554s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002773s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002858s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025461s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002501s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002298s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010149s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002108s ]
+
+[ 2014-05-12T21:50:32+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000936s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003132s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013794s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002643s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000513s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000566s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004368s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2014-05-12T21:50:34+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001014s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002807s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004330s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/8cczqLloRjhLOWfD52GDB8ZybCBcM2Pc=&flash=U2FsdGVkX1/MfYbWM0m3rZIB7Gwa5TL4014FK+Uk6YM=&java=U2FsdGVkX1/mrfIEcNnrQNOo0N9EQTIGLn56y+zc7yY=&qt=U2FsdGVkX18xigXFKsGygopq0iFfPAamgZg3E1JsrIE=&silver=U2FsdGVkX1/H8VqTpTw6/XH/Xtc9wbtX44y3p2rX8nM=&vlc=U2FsdGVkX193e7TdkK2f64GY5ZtHY9jWSaM4Ic+c/+s=&xunlei=U2FsdGVkX1/t3S1plBMKRxG7cZXmMeXOFVmRGyEGSB8=&alipay=U2FsdGVkX1+ihUC9oK7jUdZuc1v7Lpo6tEtYc3no6YM=&qqmail=U2FsdGVkX19RPvC9J0uNvye4RApeK/Dn7man9Mjpv/w=&upeditor=U2FsdGVkX1/HEhskdsaxum6bxtxWssAcF6ZSCnFFrRc=&','Windows','Mon, 12 May 2014 13:50:34 GMT') [ RunTime:0.056360s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002400s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000623s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000452s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004428s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001039s ]
+
+[ 2014-05-12T21:51:16+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000980s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001110s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003377s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013557s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000563s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000372s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004618s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000898s ]
+
+[ 2014-05-12T22:06:28+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004032s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002965s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003760s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002711s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013410s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001817s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001900s ]
+
+[ 2014-05-12T22:06:35+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002286s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002464s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003008s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004353s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18bf+24rgFt69BUGHKTiTUxIb+23wVsq2o=&flash=U2FsdGVkX189C8t8Xq9z3c1QGfXrFWpzAiKo0FV7YgY=&java=U2FsdGVkX196VEhuwDrWephw4wV9lWtq9e5Gx/rOIe0=&qt=U2FsdGVkX18OFcDlXo5m6Qys1Ley/jPG37pLXaqlDHw=&silver=U2FsdGVkX185u7Jh1zjz1mK2QMwmxfys0Wy3LGBTDeE=&vlc=U2FsdGVkX18kUMdlLlIh+YnV0mIjvY0AaSwGzLlX8Qk=&xunlei=U2FsdGVkX19VMm+cMtyaJm05MoEbmiXZeUwWLGHYAdA=&alipay=U2FsdGVkX19hHdiL5StX94vQXNd9nmQbqi4QBnOzKrM=&qqmail=U2FsdGVkX1/dXn52MoNwBeB3LCzCYkupJvlRseXyDqE=&upeditor=U2FsdGVkX1+2XAljqvHIzEtWskkUyYP5enA1hpRgcF4=&','Windows','Mon, 12 May 2014 14:06:35 GMT') [ RunTime:0.067306s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027032s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027243s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003383s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002129s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001876s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002004s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009672s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002664s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002765s ]
+
+[ 2014-05-12T22:06:40+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001145s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002932s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004657s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/PKSD3DTLmlOmU1bUAAgxBY27FYXxgl9M=&flash=U2FsdGVkX18XteVMMkNOPfsHc8ynSXe7MiGM1iB0fBA=&java=U2FsdGVkX1+m/+heDaJasIpUT9PPiYXGEAFzxujrXO8=&qt=U2FsdGVkX19G8rVEA3/MDKdgefgPYHiY8pcgsjqX0yQ=&silver=U2FsdGVkX1+f59csqIB0JtfZBW7o/CN1iew+O3nmeqI=&vlc=U2FsdGVkX1+FFXz3bvBy1LBrorHqZ2fjNX44RA4hBPY=&xunlei=U2FsdGVkX1++C59yLhnGiHBTwGN+oPHAwtCWtMIufAo=&alipay=U2FsdGVkX1+bdke5rpDq3ySezYfObNOpWe5IK8/rnOg=&qqmail=U2FsdGVkX18/6O3sv5TaSYc88rgRnHqXerapZ+mXJQg=&upeditor=U2FsdGVkX1+05R4nQy/JIlhUW2I6J0A466TMOO8kUHQ=&','Windows','Mon, 12 May 2014 14:06:40 GMT') [ RunTime:0.092313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013442s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013595s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002211s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000354s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000548s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003823s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000675s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-05-12T22:06:43+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001260s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001410s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003113s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003329s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002240s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000514s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000464s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000770s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2014-05-12T22:06:56+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002931s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003055s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002917s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003007s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023135s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002556s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002891s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002587s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010972s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001737s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001820s ]
+
+[ 2014-05-12T22:06:58+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003164s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002742s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002828s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004500s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX188c+SS50s+cbbXbpQS1898/jjXnNKmdZo=&flash=U2FsdGVkX1+BRa1JXqJGKnKaO80WDBDVm7niqUIRDEA=&java=U2FsdGVkX1/tbcj6S682HgNy53Pb87bLT+ak5IEw5ss=&qt=U2FsdGVkX194goOtzFxwfOqV/TNDrxzZIczZ4ZukJkU=&silver=U2FsdGVkX18UdS0jbFByz3Su1srXbdfV3+HqvvebIW8=&vlc=U2FsdGVkX19ABKBde7dW6DK7DrFVzUt4Z1oQ90/XG3o=&xunlei=U2FsdGVkX1+zMH+eV65o1CANMdDpnOKCu55oo8Wkkz0=&alipay=U2FsdGVkX1+s5Ibx1tYj+0wZwlEbZSE3TxW/MZYAzEE=&qqmail=U2FsdGVkX1/xSj4SLvCprkc/Rd0ZHBoqE0EsFohvRQU=&upeditor=U2FsdGVkX1+cN5thfu2qgNT3KY4Bh2p53uYTwteUS5E=&','Windows','Mon, 12 May 2014 14:06:57 GMT') [ RunTime:0.062328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024311s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002564s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002592s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002385s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010340s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000707s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-05-12T22:07:06+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001319s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001493s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003431s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014525s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014677s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002140s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000474s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000368s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000591s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003804s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000800s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2014-05-12T22:07:11+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003384s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003568s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003651s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003848s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004545s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/S4pLUwmuRMTZHQivxlPtAo94YbBRtMz0=&flash=U2FsdGVkX1+SV2/syiz5syJq7vTl+tLjwZuzjZWivbE=&java=U2FsdGVkX1/3eVmNjDeXsIxSa7dc0TtfYAvhMWCbxxw=&qt=U2FsdGVkX1+m12m0/4/wZSD1y2/nkicyX/z0Zb9shx0=&silver=U2FsdGVkX1+ss6UNXBSJ8PyrdCYEbSnGvYR3kk/yc3c=&vlc=U2FsdGVkX1+fu/CLfIcm0lYhrMiCISUvzi/lELUzcsU=&xunlei=U2FsdGVkX1/MsJPTgWhncY7vijNT2svKDuhB/tr4ydc=&alipay=U2FsdGVkX18ZelC8oU8Xdiuo4K1N6pidtqboZAz/BjE=&qqmail=U2FsdGVkX18PCSzxXmMMFTeTi9zxdiRdLgsYFUg32pY=&upeditor=U2FsdGVkX188tN33BoUBHwVhQIu+HuA2CY6B5pMwQQ8=&','Windows','Mon, 12 May 2014 14:07:11 GMT') [ RunTime:0.052766s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024266s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002939s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002909s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002712s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011564s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000680s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000761s ]
+
+[ 2014-05-12T22:07:33+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003161s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003290s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002787s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023841s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002732s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002590s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010841s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000843s ]
+
+[ 2014-05-12T22:07:39+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003104s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003223s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003213s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005920s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX19htoPfvsOKRijF0W+sDYEkNiKo3FTnfmk=&flash=U2FsdGVkX194IWEZ4LExQXa7H+AJn8nabTFAWXblhvg=&java=U2FsdGVkX19bj/pvmNVDT5821Mu8i8g7SDCgrw/QoXw=&qt=U2FsdGVkX18VPJis2lmEhONARwYH23BNBf2Qwg7WeH0=&silver=U2FsdGVkX19wpPBDZwWGO6A+icucoNidLFJcOYMrfig=&vlc=U2FsdGVkX1+LTcW7P+aVa7vlHKYFAcXYy64ZFRLjGk8=&xunlei=U2FsdGVkX18m/ehtAq74/v5MKAqYGx5A5C9z2+0O2Lg=&alipay=U2FsdGVkX19QzYNKeWwFz6TF0jojFQScedKf8kkOtIc=&qqmail=U2FsdGVkX18Mcxv3vm5rlvGw4wQjI2TIWfzpFp32ndw=&upeditor=U2FsdGVkX1+tJpBMWn4r3BgQ3+2Gy1y50kA5EbCw2Mk=&','Windows','Mon, 12 May 2014 14:07:39 GMT') [ RunTime:0.060088s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023618s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023776s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002625s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002461s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010482s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000682s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2014-05-12T22:07:45+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000930s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001054s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002659s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002743s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004183s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX19sBQ6iaiA5MD8G8OikxL0ylKRl/KrTHoI=&flash=U2FsdGVkX180PnzxGxXvG1QgIroFa+/yUhHxx5suzxk=&java=U2FsdGVkX18khoiNCFPYtuE99qjGWwVITvn6MvLBLOA=&qt=U2FsdGVkX182oo+to7S4NIvW01wtRTxMKMf0Kn9OB34=&silver=U2FsdGVkX18Cbx5g4rTdSWRTzqtrH2av/FxambXGgXg=&vlc=U2FsdGVkX1/S4eQTjXa4no7Ln2E/PaalUW9tTR2MKbM=&xunlei=U2FsdGVkX1+Oghl2NLM5i+B/JxWBcfC3srMJ1/TDesU=&alipay=U2FsdGVkX1/Ej9hgMeDf1ZTQEm4yBrPLuHYfk+lH6Jo=&qqmail=U2FsdGVkX188rhhrTdayJykFevR5BYNavRXJeVwretk=&upeditor=U2FsdGVkX1/pAQ/FphSsTDonB3BN6i/Htq7Vq1RotmU=&','Windows','Mon, 12 May 2014 14:07:44 GMT') [ RunTime:0.069693s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.029043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029262s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002710s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000652s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000467s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004860s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000903s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001012s ]
+
+[ 2014-05-12T22:08:00+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001129s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001262s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003237s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015367s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015571s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002178s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000559s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000383s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004018s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000739s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000836s ]
+
+[ 2014-05-12T22:08:10+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003206s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002725s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005323s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18HcrBekY1Selbyqpg3r+0Bm7xEZovMDw0=&flash=U2FsdGVkX19DgNeHPBWE5VDLq44vJi+VYhjqrGdsCDI=&java=U2FsdGVkX1+px8uBlidS4Hk1AjDu+Of84NjRDO08+Ao=&qt=U2FsdGVkX1/lHXCsBNolTHumhe+3bEd+vMHf36L2PxY=&silver=U2FsdGVkX1+MfEu7oFZUvRKwmrsymisNQCXB3tKHoJQ=&vlc=U2FsdGVkX1/BwTw9HdU00lLggqLBy692eCTaP+A2Nf8=&xunlei=U2FsdGVkX1+Wu+wdAixFsOf63PLn066q+HNkkaSI20E=&alipay=U2FsdGVkX18wsxphGW6JGZ6iTV2P/O6y0rFUL9yMA7c=&qqmail=U2FsdGVkX18yQloiYBllSGXeDDWZ6Vg6k0g9SruC18s=&upeditor=U2FsdGVkX19mfD1gU8dlgptV9djMNNDJa+wL/8SNDks=&','Windows','Mon, 12 May 2014 14:08:10 GMT') [ RunTime:0.063143s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025559s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002632s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002640s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002496s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010700s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001819s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001903s ]
+
+[ 2014-05-12T22:10:31+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003055s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003182s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002922s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024215s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002558s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002603s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002656s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002095s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2014-05-12T22:10:35+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003019s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003142s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002742s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005285s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1/GID9i9UBEXrnUcKTkZfgRE9PxCmK1lJk=&flash=U2FsdGVkX1/kfQ5Pgr50+Faa2hchd58ThZuwOoVUUuw=&java=U2FsdGVkX197s4HKqEcd1aNxpsX5FIIZ3cUjeRXxPPA=&qt=U2FsdGVkX1+WZFWU5s9qiGxWw+dx84OnemFvHADHrtM=&silver=U2FsdGVkX18HXWIO1ZhT1gfGR/IFDm3Hm2a4SJZPq08=&vlc=U2FsdGVkX18YpfoWVRMiUOcf0z9Ck4mLJOJAvZwpuRE=&xunlei=U2FsdGVkX1+IEp/jpIpXdp8d00N81FXSqU2aUKgt/LA=&alipay=U2FsdGVkX1/EOpmXndogRWdoYlOTdYXRCN2vJcevq1I=&qqmail=U2FsdGVkX198UGLxdlM3Dc2CmhGqRO1scFNpKwXekXw=&upeditor=U2FsdGVkX1/9HBwlzJl6O16mZfyABuyLod1mYkuSC+w=&','Windows','Mon, 12 May 2014 14:10:35 GMT') [ RunTime:0.067704s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023670s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023829s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002698s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002572s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002501s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002625s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010613s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-05-12T22:10:39+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003172s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003310s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002808s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004604s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX187i2ITVbcuvpirMdKJyYRB5Vr3jvnr1M8=&flash=U2FsdGVkX19L8UNBtTdAB69CTUQW83NZxX0YNlTNyT8=&java=U2FsdGVkX18AA1jPCKoBBZzRlkYfWRmA8/L6xfs17eM=&qt=U2FsdGVkX19ua20mhfUlKSSK5c86q87GiVKXk1gSguc=&silver=U2FsdGVkX1/TnotjJjfwkaIejuCIyOV7TJrNwrj97ug=&vlc=U2FsdGVkX1/22IoZen879UUWXdFS76L7wPTb1P1ftLU=&xunlei=U2FsdGVkX1/n8rVkItnH1gkV1E8Jz5JQGPZ+d4ZrdvI=&alipay=U2FsdGVkX1+j5b0Ypnx/ks5uvcx6n7RtltiZgWSTBK8=&qqmail=U2FsdGVkX1+mrt2NmFl2y9cS+ZGO/gSNW2rDFSMsPe4=&upeditor=U2FsdGVkX1+XMmY9UmyCCMqLF6sRYDSP1Ln3W0s10mE=&','Windows','Mon, 12 May 2014 14:10:39 GMT') [ RunTime:0.059475s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037655s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002826s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002574s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011380s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000864s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000949s ]
+
+[ 2014-05-12T22:12:55+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002428s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002570s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003400s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004812s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX19ZFA70Y4+rbn4lmZJLdEkTWHfhVGMXTyw=&flash=U2FsdGVkX197BTiNG6fiiXu7h9t5u+2VxtjlUkcqv+Q=&java=U2FsdGVkX1/tlBoXGMkjOY9HI1VESa9le5T0dgZ/AUs=&qt=U2FsdGVkX19lZ5EZA/CnH81fvpTZvIbqkK0jviKWi2g=&silver=U2FsdGVkX18qNk2Q+Y8uVsVb01COWvV35b2kO1A2/a8=&vlc=U2FsdGVkX19D840HaajiAuo072qXUhXqRvHiEEBfJiA=&xunlei=U2FsdGVkX1+zmiJf4M8IdfBwv57LeNkcW+hVX7UJinA=&alipay=U2FsdGVkX1/JglthpvAPjnqyRG1E7RGsTq4tsG7kydA=&qqmail=U2FsdGVkX18JH3TKPEuPoMiN04DQXh5iRGdgGSC4Gcg=&upeditor=U2FsdGVkX1+n9iqB7wVP7vP8vQB0eiXDj/8KA6KA4/M=&','Windows','Mon, 12 May 2014 14:12:54 GMT') [ RunTime:0.085946s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020754s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002654s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001530s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001507s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001941s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007868s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001788s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001867s ]
+
+[ 2014-05-12T22:12:58+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001002s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001127s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002944s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004405s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18iucCYub6rbm8ZNzir2AAvyQzZWGkbyxE=&flash=U2FsdGVkX18crJzCxPbMRiE6ATMTDarc9+IbqiQHzaY=&java=U2FsdGVkX1/jNIEjuZ4alu7XOEc94w3PgVIKUigt5Nk=&qt=U2FsdGVkX19mN5BfL5i19nrT1JXi4fLam+rEhHjRsbo=&silver=U2FsdGVkX19NGFNW613068EYGZmPQS68t2Q+5mgFpZs=&vlc=U2FsdGVkX18Ou9Nls3sOlXc2hxxFPXK5G3wAcTSlu1M=&xunlei=U2FsdGVkX18itkJd0wGQX3B3Ack8dOWYUut+D7cpJGE=&alipay=U2FsdGVkX19EDsxm5iOHRsCLqY75l45EVKEmApV+T20=&qqmail=U2FsdGVkX1/7PE8DFeZkioKKo5ChU9TxxO0lrs0u61c=&upeditor=U2FsdGVkX19cMwksGm67w0TYooQwvM2tE+8MSwD9PXI=&','Windows','Mon, 12 May 2014 14:12:58 GMT') [ RunTime:0.070731s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014740s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014906s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002331s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000517s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000378s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000585s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004044s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000824s ]
+
+[ 2014-05-12T22:16:10+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002352s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002547s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002928s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018201s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002798s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001562s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001472s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001620s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007723s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001791s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001869s ]
+
+[ 2014-05-12T22:16:16+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002119s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002248s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002862s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002956s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005387s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX1+q8b84vC4KYMQSrojmNCFahq/bjAo6IEw=&flash=U2FsdGVkX18/F60+fS/0SDd1GNyVOHFQrjvrJEAqobc=&java=U2FsdGVkX1+JZhNBfI3/dt3xBja2UdvK6i7aPZTQgzM=&qt=U2FsdGVkX19yvDJCv/ZNLXRtcdrjlkuC2OJ5OkJyL90=&silver=U2FsdGVkX18WMxPPw9m7cOHcYmxNglT3YvjhGdqZEN0=&vlc=U2FsdGVkX19qaewcp2QBN3gE2QrX5Quco1hYEIz4hU0=&xunlei=U2FsdGVkX19Gj/TAk9tjb3rpG99frqrmtm2/ZehyCTM=&alipay=U2FsdGVkX1/Wp8KXz4D4BoK1ajL+ayUPkvOC582i7Nw=&qqmail=U2FsdGVkX19bWYg6hZQLs/9xJSfawx4pAeO47U7ARB0=&upeditor=U2FsdGVkX1/CjMlEsErTfdhkhJSSjM3x/U8WfGN9fLY=&','Windows','Mon, 12 May 2014 14:16:16 GMT') [ RunTime:0.061053s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018167s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002685s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001787s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001662s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001669s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008122s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001795s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-05-12T22:16:49+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002991s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002952s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023274s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023428s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002592s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002541s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010735s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002067s ]
+
+[ 2014-05-12T22:17:34+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002017s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002144s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002715s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+NOTIC: [8] Undefined index:  timestamp E:\web tools\wamp\www\PluginDetect\Lib\Action\IndexAction.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018823s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002773s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001566s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001579s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007559s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001813s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001922s ]
+
+[ 2014-05-12T22:17:38+08:00 ] 127.0.0.1 /index.php/Index/scanme
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001024s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002831s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004633s ]
+SQL: INSERT INTO `scanrecord` (`ip`,`browser`,`browserversion`,`plugininfo`,`os`,`timestamp`) VALUES ('127.0.0.1','chrome','34,0,1847,131','reader=U2FsdGVkX18vvlrYBUkfxkesGcG/GpYBafhmQ2OM7ac=&flash=U2FsdGVkX19M+Zt1OtKk6dn0ikKzrx+NZ56G0bCXpvA=&java=U2FsdGVkX1+dCAtCyG4bGcMCvvihQKRjO+agSV1c80Q=&qt=U2FsdGVkX1+fdjObXZhp3P2BW9nvjBRCrwKF0X85rNk=&silver=U2FsdGVkX1/LDkhY7GZnz2jFJhuwFaHspww/oqBlNhg=&vlc=U2FsdGVkX18VQyy25U3xNQrVcGDY8U27tmEtLSsIEjc=&xunlei=U2FsdGVkX19DGtf14snrjd230x7sNRVMRt5eePPwCqY=&alipay=U2FsdGVkX1+/3manhFmPX8OPirRuLhiwUBXwU3MozQ0=&qqmail=U2FsdGVkX18KOHffjB/rV2Qy5jeqKzmj8moBrMG7okk=&upeditor=U2FsdGVkX1+zmLpNW6k+VotKDdoGrm/TLgCorEs6Zvs=&','Windows','Mon, 12 May 2014 14:17:38 GMT') [ RunTime:0.064150s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014064s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014259s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002166s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000508s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000355s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000563s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003815s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000681s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000759s ]
+
