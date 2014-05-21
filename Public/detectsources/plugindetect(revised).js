@@ -2392,7 +2392,8 @@ var PluginDetect = {
                     if (m && g.DOM.isEnabled.objectTag()) {
                         f = g.DOM.insert("object", ["type", j.mimeType], [], "", j).obj();
                         try {
-                            l = g.getNum(f.GetVariable("$version"))
+                            l = g.getNum(f.GetVariable("$version"));
+                            //alert(l);
                         } catch(k) {}
                     }
                     if (!l) {
@@ -2500,6 +2501,7 @@ var PluginDetect = {
         	$:1,
         	mimeType: "application/pta.itruspta.version.1",
             progID: "PTA.iTrusPTA",
+            classID: "clsid:1E0DFFCF-27FF-4574-849B-55007349FEDA",
         	getVersion: function(){
                 var a = null,
                 b = null,
@@ -2528,6 +2530,7 @@ var PluginDetect = {
         baofeng:{
             $: 1,
             progID: "StormAxPlayer.Player",
+            classID: "clsid:F587310D-5306-494D-87E2-88334B46E781",
             getVersion: function(){
                 var a = null,
                 b = null,
@@ -2549,6 +2552,7 @@ var PluginDetect = {
         kugou:{
             $: 1,
             progID: "KuGoo3DownXControl.KuGoo3Down",
+            classID: "clsid:162AF25B-5A2A-448E-A842-194653EF3E05",
             getVersion: function(){
                 var a = null,
                 b = null,
