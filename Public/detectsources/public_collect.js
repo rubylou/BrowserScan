@@ -1,5 +1,7 @@
 var BrowserScanHostDetails = {};
 
+var iconsource = "/Public/detectsources/icons/";
+
 var names = {
 	"AdobeReader":"Adobe Reader",
 	"DevalVR":"DevalVR",
@@ -79,6 +81,18 @@ var links = {
 function CollectOS(){
 	var operatingSystems = ["","Windows","Macintosh","Linux"];
 	BrowserScanHostDetails["os"] = operatingSystems[PluginDetect.OS];
+
+	var icon = document.createElement("img");
+	icon.setAttribute("src",iconsource + operatingSystems[PluginDetect.OS] + ".png");
+	icon.setAttribute("alt","icon");
+	icon.setAttribute("id","os_icon");
+	icon.setAttribute("width",40);
+	icon.setAttribute("height",40);
+
+	if(document.getElementById("os_icon")){
+		document.getElementById("os_info").parentNode.removeChild(document.getElementById("os_icon"));
+	}
+	document.getElementById("os_info").parentNode.insertBefore(icon,document.getElementById("os_info"));
 	document.getElementById("os_info").innerHTML = (operatingSystems[PluginDetect.OS]);
 	return("os=" + operatingSystems[PluginDetect.OS] + "&");
 }
@@ -112,44 +126,44 @@ function CollectTimestamp(){
 
 function CollectBrowser(){
 	if (PluginDetect.browser.isChrome){
-	BrowserScanHostDetails["br"] = "chrome";
+	BrowserScanHostDetails["br"] = "Chrome";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verChrome;
 	document.getElementById("browser_info").innerHTML = ("Google Chrome Version: "+PluginDetect.browser.verChrome);
-	return ("br=chrome&br_v=" + PluginDetect.browser.verChrome + "&");
+	return ("br=Chrome&br_v=" + PluginDetect.browser.verChrome + "&");
 	
 	}
 	else if (PluginDetect.browser.isIE){
-	BrowserScanHostDetails["br"] = "ie";
+	BrowserScanHostDetails["br"] = "IE";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verIE;
 	document.getElementById("browser_info").innerHTML = ("Internet Explorer Version: "+PluginDetect.browser.verIE);
-	return ("br=ie&br_v=" + PluginDetect.browser.verIE + "&");
+	return ("br=IE&br_v=" + PluginDetect.browser.verIE + "&");
 	
 	}
 	else if (PluginDetect.browser.isGecko){
-	BrowserScanHostDetails["br"] = "firefox";
+	BrowserScanHostDetails["br"] = "Firefox";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verGecko;
 	document.getElementById("browser_info").innerHTML = ("Mozilla Firefox Version: "+PluginDetect.browser.verGecko);
-	return ("br=firefox&br_v=" + PluginDetect.browser.verGecko + "&");
+	return ("br=Firefox&br_v=" + PluginDetect.browser.verGecko + "&");
 	
 	}
 	else if (PluginDetect.browser.isSafari){
-	BrowserScanHostDetails["br"] = "safari";
+	BrowserScanHostDetails["br"] = "Safari";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verSafari;		
 	document.getElementById("browser_info").innerHTML = ("Apple Safari Version: "+PluginDetect.browser.verSafari);
-	return ("br=safari&br_v=" + PluginDetect.browser.verSafari + "&");
+	return ("br=Safari&br_v=" + PluginDetect.browser.verSafari + "&");
 	}
 	else if (PluginDetect.browser.isOpera){
-	BrowserScanHostDetails["br"] = "opera";
+	BrowserScanHostDetails["br"] = "Opera";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verOpera;
 	document.getElementById("browser_info").innerHTML = ("Opera Version: "+PluginDetect.browser.verOpera);
-	return ("br=opera&br_v=" + PluginDetect.browser.verOpera + "&");
+	return ("br=Opera&br_v=" + PluginDetect.browser.verOpera + "&");
 	
 	}
 	else if (PluginDetect.browser.isMaxthon){
-    BrowserScanHostDetails["br"] = "maxthon";
+    BrowserScanHostDetails["br"] = "Maxthon";
     BrowserScanHostDetails["br_v"] = PluginDetect.browser.verMaxthon;
     document.getElementById("browser_info").innerHTML = ("Maxthon Version: "+PluginDetect.browser.verMaxthon);
-    return ("br=maxthon&br_v=" + PluginDetect.browser.verMaxthon + "&");  
+    return ("br=Maxthon&br_v=" + PluginDetect.browser.verMaxthon + "&");  
   	}
 }
 
@@ -190,9 +204,6 @@ function CollectParams(update){
         "Kugou":"kugou"
         };
 	
-	
-	var iconsource = "/Public/detectsources/icons/";
-
 	var pluginStatus = {};
     var table = document.getElementById("tablebody");
 	for (var i in ao){
@@ -279,6 +290,18 @@ function CollectParams(update){
 	
 	params += CollectOS();
 	params += CollectBrowser();
+
+	var icon = document.createElement("img");
+	icon.setAttribute("src",iconsource + BrowserScanHostDetails["br"] + ".png");
+	icon.setAttribute("alt","icon");
+	icon.setAttribute("id","br_icon");
+	icon.setAttribute("width",40);
+	icon.setAttribute("height",40);
+
+	if(document.getElementById("br_icon")){
+		document.getElementById("browser_info").parentNode.removeChild(document.getElementById("br_icon"));
+	}
+	document.getElementById("browser_info").parentNode.insertBefore(icon,document.getElementById("browser_info"));
 	//alert(CollectBrowser());
 	params += CollectTimestamp();
 	//params += CollectTID();
@@ -335,42 +358,6 @@ function info_parseDecrypt(plugininfo){
 	return result;
 }
 
-function info_parse(plugininfo){
-	var plugins = {
-	        "AdobeReader":"reader=",
-	        "DevalVR":"dvr=",
-	        "Flash":"flash=",
-	        "Java":"java=",
-	        "QuickTime":"qt=",
-	        "RealPlayer":"rp=",
-	        "Shockwave":"shock=",
-	        "SilverLight":"silver=",
-	        "WMP":"wmp=",
-	        "VLC":"vlc=",
-	        "Xunlei":"xunlei=",
-	        "Alipay":"alipay=",
-	        "QQmail":"qqmail=",
-	        "UPEditor":"upeditor=",
-	        "Baofeng":"baofeng=",
-	        "Kugou":"kugou="
-	        };
-	var result = "";
-	for(var i in plugins){
-		var start = plugininfo.indexOf(plugins[i]);
-		if(start!=-1){
-			var end = plugininfo.indexOf("&");
-			var crypttext = plugininfo.substring(start,end+1);
-			plugininfo = plugininfo.replace(crypttext,"");
-			crypttext = crypttext.replace(plugins[i],"");
-			crypttext = crypttext.replace(/&/,"");
-			var plaintext = crypttext;
-			result = result + i + " " + plaintext + " ";
-		}
-		
-	}
-	return result;
-}
-
 function createRequest(){
 	var xmlHttp;
 	if (window.XMLHttpRequest){
@@ -414,35 +401,35 @@ function isUpdated(present,update)
 
 function CollectBrowserOnly(){
 	if (PluginDetect.browser.isChrome){
-	BrowserScanHostDetails["br"] = "chrome";
+	BrowserScanHostDetails["br"] = "Chrome";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verChrome;
-	return ("br=chrome&br_v=" + PluginDetect.browser.verChrome + "&");
+	return ("br=Chrome&br_v=" + PluginDetect.browser.verChrome + "&");
 	}
 	else if (PluginDetect.browser.isIE){
-	BrowserScanHostDetails["br"] = "ie";
+	BrowserScanHostDetails["br"] = "IE";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verIE;
-	return ("br=ie&br_v=" + PluginDetect.browser.verIE + "&");
+	return ("br=IE&br_v=" + PluginDetect.browser.verIE + "&");
 	}
 	else if (PluginDetect.browser.isGecko){
-	BrowserScanHostDetails["br"] = "firefox";
+	BrowserScanHostDetails["br"] = "Firefox";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verGecko;
-	return ("br=firefox&br_v=" + PluginDetect.browser.verGecko + "&");
+	return ("br=Firefox&br_v=" + PluginDetect.browser.verGecko + "&");
 	
 	}
 	else if (PluginDetect.browser.isSafari){
-	BrowserScanHostDetails["br"] = "safari";
+	BrowserScanHostDetails["br"] = "Safari";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verSafari;		
-	return ("br=safari&br_v=" + PluginDetect.browser.verSafari + "&");
+	return ("br=Safari&br_v=" + PluginDetect.browser.verSafari + "&");
 	}
 	else if (PluginDetect.browser.isOpera){
-	BrowserScanHostDetails["br"] = "opera";
+	BrowserScanHostDetails["br"] = "Opera";
 	BrowserScanHostDetails["br_v"] = PluginDetect.browser.verOpera;
-	return ("br=opera&br_v=" + PluginDetect.browser.verOpera + "&");
+	return ("br=Opera&br_v=" + PluginDetect.browser.verOpera + "&");
 	}
 	else if (PluginDetect.browser.isMaxthon){
-    BrowserScanHostDetails["br"] = "maxthon";
+    BrowserScanHostDetails["br"] = "Maxthon";
     BrowserScanHostDetails["br_v"] = PluginDetect.browser.verMaxthon;
-    return ("br=maxthon&br_v=" + PluginDetect.browser.verMaxthon + "&");  
+    return ("br=Maxthon&br_v=" + PluginDetect.browser.verMaxthon + "&");  
   	}
 }
 
@@ -477,7 +464,7 @@ function CollectInfoOnly(){
 	
 	for (var i in ao){
 		if (BrowserScanHostDetails[ao[i]] != undefined){
-			params += plugins[ao[i]] + "=" + BrowserScanHostDetails[ao[i]] + "&";
+			params += plugins[ao[i]] + "=" + encrypt(BrowserScanHostDetails[ao[i]]) + "&";
 		}
 	}
 	
@@ -487,4 +474,106 @@ function CollectInfoOnly(){
 	params += CollectTimestamp();
 	//params += CollectTID();
 	return params;
+}
+
+function createContentTable(plugin,info,latest_list){
+    var info_table = $("<table></table>").addClass("table");
+
+    var plugins = {
+      "AdobeReader":"reader=",
+      "DevalVR":"dvr=",
+      "Flash":"flash=",
+      "Java":"java=",
+      "QuickTime":"qt=",
+      "RealPlayer":"rp=",
+      "Shockwave":"shock=",
+      "SilverLight":"silver=",
+      "WMP":"wmp=",
+      "VLC":"vlc=",
+      "Xunlei":"xunlei=",
+      "Alipay":"alipay=",
+      "QQmail":"qqmail=",
+      "UPEditor":"upeditor=",
+      "Baofeng":"baofeng=",
+      "Kugou":"kugou="
+      };
+
+    for(var i in plugins){
+      var start = plugin.indexOf(plugins[i]);
+      if(start!=-1){
+        var end = plugin.indexOf("&");
+        var crypttext = plugin.substring(start,end+1);
+        plugin = plugin.replace(crypttext,"");
+        crypttext = crypttext.replace(plugins[i],"");
+        crypttext = crypttext.replace(/&/,"");
+        var plaintext = decrypt(crypttext);
+        
+        var plugin_tag = $("<td></td>");
+        var icon = $("<img></img>");
+		icon.attr("src",iconsource + i + ".png");
+		icon.attr("alt","icon");
+		icon.attr("width",40);
+		icon.attr("height",40);
+		plugin_tag.append(icon);
+		plugin_tag.append(names[i]);
+		//plugin_tag.text(names[i]);
+
+        var version_tag = $("<td></td>").text(plaintext);
+
+        if(info.indexOf("IE")!=-1){
+          var description_tag = $("<td></td>").text(IEdescription[i]);
+        }
+        else{
+          var description_tag = $("<td></td>").text(nonIEdescription[i]);
+        }
+
+        if(latest_list[i]){
+          var latest_tag = $("<td></td>").text(latest_list[i]['windows']);
+        }
+        else{
+          var latest_tag = $("<td></td>").text("Unknown");
+        }
+
+        var info_row = $("<tr></tr>").append(plugin_tag);
+        info_row.append(version_tag);
+        info_row.append(description_tag);
+        info_row.append(latest_tag);
+
+        info_table.append(info_row);
+
+      }
+      
+    }
+    return info_table;
+}
+
+function createPanel(plugin,info,latest,accordion){
+  for(i in info){
+  	var index = info.length-i-1;
+    var panel = $("<div></div>").addClass("panel panel-default");
+    var heading_div = $("<div></div>").addClass("panel-heading");
+    var heading_h = $("<h4></h4>").addClass("panel-title");
+    var heading_href = $("<a></a>").text("#"+i+" "+info[index]['timestamp']+" "+info[index]["ip"]+" "+info[index]['os']+" "+info[index]['browser']);
+    heading_href.attr("data-toggle","collapse");
+    heading_href.attr("data-parent","#accordion");
+    heading_href.attr("data-target","#collapse"+info[index]['id']);
+    heading_href.attr("href","#collapse"+info[index]['id']);
+    heading_href.addClass("collapsed");
+
+    heading_h.append(heading_href);
+    heading_div.append(heading_h);
+    panel.append(heading_div);
+
+    var content = $("<div></div>").attr("id","collapse"+info[index]['id']);
+    content.addClass("panel-collapse collapse");
+    content.attr("style","height: 0px;");
+
+    var content_body = $("<div></div>").addClass("panel-body");
+    content_body.append(createContentTable(plugin[index]['plugininfo'],info[index]['browser'],latest));
+
+    content.append(content_body);
+    panel.append(content);
+
+    $("#"+accordion).append(panel);
+  }
 }

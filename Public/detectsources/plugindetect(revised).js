@@ -309,11 +309,12 @@ var PluginDetect = {
             			scr_moz = true;
             		}
             	}
-            	return navi_moz && scr_moz;
+            	return navi_moz || scr_moz;
             };
             
             a.isGecko = (/Gecko/i).test(b) && (/Gecko\s*\/\s*\d/i).test(c) && isGecko2();
-            a.verGecko = a.isGecko ? d.formatNum((/rv\s*\:\s*([\.\,\d]+)/i).test(c) ? RegExp.$1: "0.9") : null;                          
+            //a.verGecko = a.isGecko ? d.formatNum((/rv\s*\:\s*([\.\,\d]+)/i).test(c) ? RegExp.$1: "0.9") : null; 
+            a.verGecko = a.isGecko ? d.formatNum(c.match(/Firefox\s*\/\s*(\d[\d\.]*)/i)[1]) : null;                          
             
             a.isChrome = (/(Chrome|CriOS)\s*\/\s*(\d[\d\.]*)/i).test(c) && (/Google/i).test(g);
             //alert(a.isChrome);
@@ -2517,7 +2518,7 @@ var PluginDetect = {
                 else {
                     g = c.getAXO(d.progID);
                     b = c.getPROP(g,"version");
-                    if (b && b.toString) {
+                    if (b && b.toString()) {
                         a = b.toString(16);
                         a = parseInt(a.charAt(0) || "0", 16) + "." + parseInt(a.charAt(2) || "0", 16) + "." + parseInt(a.charAt(4) || "0", 16) + "." + parseInt(a.charAt(6) || "0", 16);
                     }
@@ -2539,7 +2540,7 @@ var PluginDetect = {
                 if (c.browser.isIE) {
                     g = c.getAXO(d.progID);
                     b = c.getPROP(g,"version");
-                    if (b && b.toString) {
+                    if (b && b.toString()) {
                         a = b.toString(16);
                     }
                 }
@@ -2560,8 +2561,10 @@ var PluginDetect = {
                 c = d.$;
                 if (c.browser.isIE) {
                     g = c.getAXO(d.progID);
-                    b = g.getVersion();
-                    if (b && b.toString) {
+                    if(g){
+                        b = g.GetVersion();
+                    }
+                    if (b && b.toString()) {
                         a = b.toString(10);
                         a = parseInt(a.charAt(0) || "0", 10) + "." + parseInt(a.charAt(1) || "0", 10) + "." + parseInt(a.charAt(2) || "0", 10) + "." + parseInt(a.charAt(3) || "0", 10);
                     }
@@ -2595,7 +2598,7 @@ var PluginDetect = {
         
         upeditor:{
         	$:1,
-        	mimeType:"application/upeditor",
+        	mimeType: ["application/upeditor","application/unionpay-securityedit-plugin"],
         	getVersion: function(){
                 var a = null,
                 b = null,

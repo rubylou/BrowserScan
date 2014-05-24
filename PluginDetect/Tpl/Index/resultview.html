@@ -7,62 +7,54 @@
     <meta name="author" content="">
 	<link href="__PUBLIC__/detectsources/bootstrap.css" rel="stylesheet">
 	<link href="__PUBLIC__/detectsources/flat-ui.css" rel="stylesheet">
+	<script src="__PUBLIC__/detectsources/jquery.js"></script>
+	<script src="__PUBLIC__/detectsources/bootstrap.js"></script>
+	<style type="text/css">
+      body {
+        padding-top: 20px;
+        padding-bottom: 40px;
+      }
+
+      /* Main marketing message and sign up button */
+       .container-narrow {
+        margin: 0 auto;
+        max-width: 800px;
+      }
+      .container-narrow > hr {
+        margin: 30px 0;
+      }
+    </style>
 </head>
 
 <body>
-	<div class="container">
+	<div class="container-narrow">
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">
 				<li class="active"><a href="#">Home</a></li>
-				<li><a href="__URL__/scanme">Sign Up</a></li>
-				<li><a href="#">Contact</a></li>
+				<li><a href="__URL__/login">Sign Out</a></li>
+				<li><a href="__URL__/scanme">Scan Me</a></li>
 			</ul>
-			<h3 class="muted">Detection Monitor</h3>
+			<h3 class="muted">后台管理</h3>
 		</div>
 
 		<hr>
 
 		<h6 class="muted">Log View</h6>
-		<div class="row">
-			<div style="height:500px; overflow:scroll;">
-				<table class="table table-hover table-bordered table-condensed table-responsive" style="white-space: nowrap;">
-					<tr class="success">
-						<th>IP地址</th>
-						<th>浏览器</th>
-						<th>操作系统</th>
-						<th>时间戳</th>
-						<th>插件</th>
-					</tr>
-					
-					<volist name="list" id="vo">
-						<tr id="record{$vo.id}">
-							<td>{$vo.ip}</td>
-							<td>{$vo.browser}</td>
-							<td>{$vo.os}</td>
-							<td>{$vo.timestamp}</td>
-						</tr>
-					</volist>	
-				</table>
-			</div>
-		</div>
-</body>
 
+		<div class="panel-group" id="accordion">
+		</div>
+	</div>
+	
+</body>
+<script src="__PUBLIC__/detectsources/plugindetect(revised).js"></script>
 <script src="__PUBLIC__/detectsources/public_collect.js"></script>
 <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
 <script>
+    var a = {$plugin};
+    var b = {$info};
+    var c = {$json};
 
-//alert(a[0]['plugininfo']);
-var a = {$json};
-for(var i in a){
-	var x = document.getElementById('record'+a[i]['id']);
-	var text = document.createTextNode(info_parse(a[i]['plugininfo']));
-	var node = document.createElement("td");
-	node.appendChild(text);
-	x.appendChild(node);
-	//alert(x.id);
-}
+    createPanel(a,b,c,"accordion");
 
-//x=document.getElementsByTagName("tr");
-//alert(x.length);
 </script>
 </html>

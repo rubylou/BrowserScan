@@ -11,6 +11,7 @@
     <link href="__PUBLIC__/detectsources/bootstrap.css" rel="stylesheet">
     <link href="__PUBLIC__/detectsources/flat-ui.css" rel="stylesheet">
     <script scr="__PUBLIC__/detectsources/bootstrap.js"></script>
+    
 
     <style type="text/css">
       body {
@@ -82,16 +83,24 @@
       <hr>
       
       <div class="row-fluid marketing">
-        <div class="span6">
-          <span>Browser Information</span>
-          <p id="browser_info"></p>
+        <div class="row">
+          <div class="col-md-3">
+            <span>Browser Information</span>
+          </div>
+          <div class="col-md-6">
+            <span id="browser_info"></span>
+          </div>
         </div>
         
         <hr>
         
-        <div class="span6">
-          <span>OS Information</span>
-          <p id="os_info"></p>
+        <div class="row">
+          <div class="col-md-3">
+            <span>OS Information</span>
+          </div>
+          <div class="col-md-3">
+            <span id="os_info"></span>
+          </div>
         </div>
                
       </div>
