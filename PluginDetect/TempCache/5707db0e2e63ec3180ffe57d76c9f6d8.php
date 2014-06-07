@@ -10,6 +10,7 @@
     <!-- Le styles -->
     <link href="__PUBLIC__/detectsources/bootstrap.css" rel="stylesheet">
     <link href="__PUBLIC__/detectsources/flat-ui.css" rel="stylesheet">
+      <script src="__PUBLIC__/detectsources/jquery.js"></script>
     <script scr="__PUBLIC__/detectsources/bootstrap.js"></script>
   </head>
 

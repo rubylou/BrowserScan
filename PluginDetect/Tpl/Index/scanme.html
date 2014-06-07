@@ -22,17 +22,24 @@
 
       /* Main marketing message and sign up button */
       .jumbotron {
-        margin: 60px 0;
         text-align: center;
+        width: 80%;
+        margin-left:auto; 
+        margin-right:auto;
       }
       .jumbotron h1 {
-        font-size: 72px;
+        font-size: 60px;
         line-height: 1;
       }
       .jumbotron .btn {
         font-size: 21px;
         padding: 14px 24px;
       }
+
+      table{
+        table-layout: fixed;
+      }
+
     </style>
   </head>
 
@@ -43,7 +50,7 @@
       <div class="masthead">
         <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="__URL__/login">Sign in</a></li>
+          <li><a href="../Admin">Sign in</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
         <h3 class="muted">Browser Scan</h3>
@@ -51,39 +58,33 @@
 
       <hr>
 
-      <div class="jumbotron">
+      <div class="jumbotron" id="scan_panel">
         <h1>Scan and protect your browser!</h1>
         <p class="lead">We are trying to figure out your browser environment including your browser's version and plugins' version. Then show you the result of the scanning and suggestion for your browser protection.</p>
         <button type="submit" href="#" class="btn btn-success" onclick="display()">Scan Now</button>
     	
       </div>
-
-      <hr>
       
-      <div class="container-fluid">
-        <div class="row-fluid">
-          <div class="span12">
-            <table class="table table-hover">
-              <thead>
-                <tr>
-                  <th>Plugin</th>
-                  <th>Version</th>
-                  <th>Description</th>
-                  <th>Status</th>
-                  <th>Operation</th>
-                </tr>
-              </thead>
-              <tbody id="tablebody">
-                
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>  
-       
-      <hr>
       
-      <div class="row-fluid marketing">
+      <div class="table-responsive">  
+        <table class="table table-hover hide" id="result_table">
+          <thead>
+            <tr>
+              <th width="20%">Plugin</th>
+              <th width="15%">Version</th>
+              <th width="40%">Description</th>
+              <th width="20%">Latest Version</th>
+              <th width="10%">Operation</th>
+            </tr>
+          </thead>
+          <tbody id="tablebody">
+            
+          </tbody>
+        </table>
+      </div>
+            
+      <div class="row-fluid marketing hide" id="infor_container">
+        <hr>
         <div class="row">
           <div class="col-md-3">
             <span>Browser Information</span>
@@ -109,7 +110,7 @@
       <hr>
 
       <div class="footer">
-        <p>&copy; Company 2014</p>
+        <p>&copy; Copyright 2014</p>
       </div>
 
     </div> <!-- /container -->
@@ -119,12 +120,21 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="__PUBLIC__/detectsources/plugindetect(revised).js"></script>
     <script src="__PUBLIC__/detectsources/public_collect.js"></script>
-    <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/aes.js"></script>
+    <script src="__PUBLIC__/detectsources/aes.js"></script>
     <script>
     var a = {$json};
     //alert(a[0]['windows']);
 
   	function display(){
+
+      $("#scan_panel").fadeOut();
+
+      $("#result_table").removeClass("hide");
+      $("#result_table").addClass("show");
+      //$("#result_table").fadeIn();
+      $("#infor_container").removeClass("hide");
+      $("#infor_container").addClass("show");
+
   		var table = document.getElementById("tablebody");
   		var parent = table.parentNode;
   		parent.removeChild(table);

@@ -190,6 +190,18 @@ var PluginDetect = {
         return d
     },
     browser: {},
+    others: {},
+
+    getOtherPlugins: function(){
+        var others = this.others,
+        NavPlugins = navigator.plugins;
+        for(var i in NavPlugins){
+            //alert(NavPlugins[i].name);
+            others[NavPlugins[i].name] = false;
+        }
+
+    },
+
     INIT: function() {
         this.init.library(this)
     },
@@ -339,7 +351,7 @@ var PluginDetect = {
             b, a = navigator.platform || "";
             d.OS = 100;
             if (a) {
-                var c = ["Win", 1, "Mac", 2, "Linux", 3, "FreeBSD", 4, "iPhone", 21.1, "iPod", 21.2, "iPad", 21.3, "Win.*CE", 22.1, "Win.*Mobile", 22.2, "Pocket\\s*PC", 22.3, "", 100];
+                var c = ["Win", 1, "Mac", 2, "Linux", 3, "FreeBSD", 4, "iPhone", 5, "iPod", 6, "iPad", 7, "Win.*CE", 8, "Win.*Mobile", 9, "Pocket\\s*PC", 10, "", 100];
                 for (b = c.length - 2; b >= 0; b = b - 2) {
                     if (c[b] && new RegExp(c[b], "i").test(a)) {
                         d.OS = c[b + 1];  
@@ -362,6 +374,7 @@ var PluginDetect = {
             e.detectPlatform();
             e.detectIE();
             e.detectNonIE();
+            this.$.getOtherPlugins();
             c.init.hasRun = 1
         }
     },
@@ -416,12 +429,12 @@ var PluginDetect = {
                 g = f.plugin;
                 h = b.formatNum(b.isNum(h) ? h.toString() : (b.isStrNum(h) ? b.getNum(h) : "0"));
                 if (g.getVersionDone != 1) {
-                    g.getVersion(h, e, d);//鍙栧緱鐗堟湰淇℃伅
-                    if (g.getVersionDone === null) { //鏇存柊鐗堟湰鐘舵�
+                    g.getVersion(h, e, d);
+                    if (g.getVersionDone === null) { 
                         g.getVersionDone = 1
                     }
                 }
-                if (g.installed !== null) { //鍙栧緱瀹夎淇℃伅
+                if (g.installed !== null) { 
                     c = g.installed <= 0.5 ? g.installed: (g.installed == 0.7 ? 1 : (g.version === null ? 0 : (b.compareNums(g.version, h, g) >= 0 ? 1 : -0.1)))
                 };
                 return c
@@ -1187,7 +1200,8 @@ var PluginDetect = {
                     if (d.hasMimeType(h.mimeType)) {
                         g = d.OS != 3 ? d.findNavPlugin("QuickTime.*Plug-?in", 0) : null;
                         if (g && g.name) {
-                            a = d.getNum(g.name)
+                            a = d.getNum(g.name);
+                            this.$.others[g.name] = true;
                         }
                     }
                 } else {
@@ -1792,7 +1806,8 @@ var PluginDetect = {
                         i.mimeObj = o;
                         i.pluginObj = o ? o.enabledPlugin: 0;
                         i.mimetype = g;
-                        i.version = c
+                        i.version = c;
+                        this.$.others[i.pluginObj.name] = true;
                     };
                     return i
                 }
@@ -1850,12 +1865,13 @@ var PluginDetect = {
                         if (j) {
                             l = e.getNum(j.description);
                             if (l) {
-                                f = l
+                                f = l;
                             }
                         }
                     };
                     if (f) {
-                        m.version = e.formatNum(f)
+                        m.version = e.formatNum(f);
+                        this.$.others[h.pluginObj.name] = true;
                     };
                     return m
                 }
@@ -2351,6 +2367,7 @@ var PluginDetect = {
                 if (!c.browser.isIE) {
                     f = c.findNavPlugin("DevalVR");
                     if (f && f.name && c.hasMimeType(h.mimeType)) {
+                        this.$.others[f.name] = true;
                         a = f.description.split(" ")[3]
                     }
                     h.installed = a ? 1 : -1
@@ -2403,8 +2420,11 @@ var PluginDetect = {
                             l = b(d.description)
                         }
                         if (l) {
-                            l = g.getPluginFileVersion(d, l)
+                            l = g.getPluginFileVersion(d, l);
                         }
+                    }
+                    if (l) {
+                        this.$.others[m.enabledPlugin.name] = true;
                     }
                 } else {
                     for (h = 15; h > 2; h--) {
@@ -2452,7 +2472,8 @@ var PluginDetect = {
                         a = c.getNum(f.description)
                     }
                     if (a) {
-                        a = c.getPluginFileVersion(f, a)
+                        a = c.getPluginFileVersion(f, a);
+                        this.$.others[f.name] = true;
                     }
                 } else {
                     try {
@@ -2491,6 +2512,7 @@ var PluginDetect = {
                     f = g? g.enabledPlugin:null;
                     if (f && f.filename) {
                         a = c.getNum(f.filename);
+                        this.$.others[f.name] = true;
                     }
                 }
                 else {}
@@ -2513,6 +2535,7 @@ var PluginDetect = {
                     f = g? g.enabledPlugin:null;
                     if (f && f.description) {
                         a = c.getNum(f.description);
+                        this.$.others[f.name] = true;
                     }
                 }
                 else {
@@ -2588,6 +2611,7 @@ var PluginDetect = {
                     f = g? g.enabledPlugin:null;
                     if (f && f.description) {
                         a = c.getNum(f.description);
+                        this.$.others[f.name] = true;
                     }
                 }
                 else {}
@@ -2609,6 +2633,7 @@ var PluginDetect = {
                     f = g? g.enabledPlugin:null;
                     if (f && f.description) {
                         a = c.getNum(f.description);
+                        this.$.others[f.name] = true;
                     }
                 }
                 else {}
@@ -2656,6 +2681,9 @@ var PluginDetect = {
                     d = (e.hasMimeType(b.mimeType) ? e.findNavPlugin(b.regStr.wmp, 0, b.regStr.avoidPlayers) : 0);
                     if (b.FirefoxPlugin.query().version) {
                         a = b.FirefoxPlugin.version
+                    }
+                    if (a) {
+                        this.$.others[d.name] = true;
                     }
                 } else {
                     d = e.getAXO(b.progID);
@@ -2742,6 +2770,7 @@ var PluginDetect = {
                             i = c.formatNum(f.description)
                         }
                         if (i) {
+                            this.$.others[f.name] = true;
                             r = i.split(c.splitNumRegx);
                             if (parseInt(r[2], 10) >= 30226 && parseInt(r[0], 10) < 2) {
                                 r[0] = "2"
@@ -2844,7 +2873,8 @@ var PluginDetect = {
                     if (d.hasMimeType(e.mimeType)) {
                         f = d.findNavPlugin("VLC.*Plug-?in", 0, "Totem");
                         if (f && f.description) {
-                            a = d.getNum(f.description, "[\\d][\\d\\.]*[a-z]*")
+                            a = d.getNum(f.description, "[\\d][\\d\\.]*[a-z]*");
+                            this.$.others[f.name] = true;
                         }
                     }
                 } else {
@@ -2945,7 +2975,8 @@ var PluginDetect = {
                         }
                     }
                     if (b) {
-                        d.version = b
+                        this.$.others[e.name] = true;
+                        d.version = b;
                     };
                     return d
                 }
@@ -3481,7 +3512,8 @@ var PluginDetect = {
                             }
                         }
                     } else {
-                        k = j.version
+                        k = j.version;
+                        this.$.others[o.name] = true;
                     }
                     j.installed = c && g && k ? 1 : (c && g ? 0 : (c ? -0.2 : -1))
                 } else {

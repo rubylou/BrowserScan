@@ -85,4 +85,44 @@ function crawler(){
 
 
     }
+
+    function arrayChange($a){
+        static $arr2;
+        foreach($a as $v){
+            if(is_array($v)){
+                foreach($v as $k){
+                  $arr2[]=$k;
+                }
+            }else{
+                $arr2[]=$v;
+            }
+        }
+        return $arr2;
+     }
+
+    function login_alert(){
+        echo('<html><head><meta charset="utf-8">
+              <title>Browser &middot; Scan</title>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0">
+              <meta name="description" content="">
+              <meta name="author" content="">');
+        echo('<link type="text/css" href="/Public/detectsources/bootstrap.css" rel="stylesheet">
+              <link type="text/css" href="/Public/detectsources/flat-ui.css" rel="stylesheet">
+              <script type="text/javascript" src="/Public/detectsources/jquery.js"></script>
+              <script type="text/javascript" src="/Public/detectsources/bootstrap.js"></script></head>');
+        echo('<body><div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">');
+        echo('<div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">');
+        echo('<button type="button" class="close" data-dismiss="modal" aria-hidden="true" onclick="login()">&times;</button>');
+        echo('<h4 class="modal-title" id="myModalLabel">Login Error</h4>
+            </div>
+            <div class="modal-body">用户不存在或密码错误!</div>');
+        echo('<div class="modal-footer">
+            <button type="button" class="btn btn-primary" onclick="login()">确认</button>
+            </div>');
+        echo('</div></div></div></body>');
+        echo("<script>$('#myModal').modal('toggle');function login(){window.location.href='index'}</script></html>");
+    }
+
 ?>

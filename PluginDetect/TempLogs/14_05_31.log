@@ -1,0 +1,943 @@
+[ 2014-05-31T09:25:10+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.029346s ]
+INFO: [ route_check ] --END-- [ RunTime:0.029625s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.016058s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.016280s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.070080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070330s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004010s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003021s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002983s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013345s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003276s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003377s ]
+
+[ 2014-05-31T09:28:29+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001875s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022208s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001405s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001334s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001192s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005622s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001536s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001627s ]
+
+[ 2014-05-31T09:30:03+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002277s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002490s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001767s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021513s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001567s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001226s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001416s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005953s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001592s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001671s ]
+
+[ 2014-05-31T09:31:37+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002503s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002661s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002478s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016108s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001424s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001374s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001223s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005696s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001566s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001644s ]
+
+[ 2014-05-31T09:31:48+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001241s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001364s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+
+[ 2014-05-31T09:34:41+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001861s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002006s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002048s ]
+
+[ 2014-05-31T09:35:14+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001798s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001941s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015697s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001613s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001757s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001235s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001411s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006283s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001921s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002012s ]
+
+[ 2014-05-31T09:35:23+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002179s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002367s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001918s ]
+
+[ 2014-05-31T09:36:57+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002249s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002439s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015547s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001415s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001399s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001202s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005624s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001535s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001650s ]
+
+[ 2014-05-31T09:37:05+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001704s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001903s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001468s ]
+
+[ 2014-05-31T09:37:05+08:00 ] 127.0.0.1 /index.php/Admin/__URL__/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001299s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001473s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+ERR: 非法操作:__URL__
+
+[ 2014-05-31T09:37:41+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002039s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002181s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001694s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.023037s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023190s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001423s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001320s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001189s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001537s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2014-05-31T09:37:49+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004354s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004650s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004040s ]
+
+[ 2014-05-31T09:37:50+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000973s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001101s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.071857s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.020087s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000867s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.061225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061437s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001743s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001614s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001465s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001713s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006812s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002212s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002338s ]
+
+[ 2014-05-31T09:42:23+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001787s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001915s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001563s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016288s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016432s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001430s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001790s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001325s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001424s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006236s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002748s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002846s ]
+
+[ 2014-05-31T09:42:33+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001777s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001891s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001556s ]
+
+[ 2014-05-31T09:42:33+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000905s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000616s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.003937s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.001748s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000334s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017327s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017468s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001332s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005676s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001690s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001772s ]
+
+[ 2014-05-31T09:43:15+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001858s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001981s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001712s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016822s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001731s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001925s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001534s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007267s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001875s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001998s ]
+
+[ 2014-05-31T09:43:22+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002162s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002836s ]
+
+[ 2014-05-31T09:43:22+08:00 ] 127.0.0.1 /index.php/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001074s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001201s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+ERR: 无法加载模块:resultview
+
+[ 2014-05-31T09:43:49+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002093s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001728s ]
+
+[ 2014-05-31T09:43:49+08:00 ] 127.0.0.1 /index.php/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001095s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001250s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001848s ]
+ERR: 无法加载模块:resultview
+
+[ 2014-05-31T09:43:54+08:00 ] 127.0.0.1 /index.php/Admin
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001392s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014780s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014928s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001534s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001341s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001281s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001409s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005788s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001527s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2014-05-31T09:44:06+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000948s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001062s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+
+[ 2014-05-31T09:44:06+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001432s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004121s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.001951s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014796s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000532s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000461s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002074s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000810s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2014-05-31T09:44:13+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001137s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001332s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004711s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002272s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000362s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000530s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000453s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000329s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000540s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002069s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000828s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000908s ]
+
+[ 2014-05-31T09:44:14+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001072s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001190s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004471s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002355s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000517s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013771s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000550s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000452s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002094s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000816s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000902s ]
+
+[ 2014-05-31T09:44:17+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001699s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000770s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.035725s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.024615s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049664s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000515s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000456s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002056s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000745s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000821s ]
+
+[ 2014-05-31T09:44:26+08:00 ] 127.0.0.1 /index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001223s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001414s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012234s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000633s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000607s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000470s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002690s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000859s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000967s ]
+
+[ 2014-05-31T09:44:32+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001124s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000745s ]
+
+[ 2014-05-31T09:44:32+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001391s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.003929s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.001915s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000337s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013459s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013671s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000579s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000467s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000331s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000545s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002153s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000888s ]
+
+[ 2014-05-31T09:44:37+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000987s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001117s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+
+[ 2014-05-31T09:44:37+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000984s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000695s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.021257s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002819s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000502s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016509s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000673s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000628s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000397s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000729s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002724s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001077s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2014-05-31T09:44:50+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001988s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002118s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001688s ]
+
+[ 2014-05-31T09:44:50+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000992s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001105s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+
+[ 2014-05-31T09:44:55+08:00 ] 127.0.0.1 /index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000911s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026334s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026484s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001472s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001431s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001264s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001443s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005833s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001756s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-05-31T09:44:58+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001880s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002010s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+
+[ 2014-05-31T09:44:58+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001017s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000693s ]
+
+[ 2014-05-31T09:45:00+08:00 ] 127.0.0.1 /index.php/Admin/index
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000958s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001080s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017291s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001691s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001520s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001225s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001453s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006146s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001648s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001733s ]
+
+[ 2014-05-31T09:45:05+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001210s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001388s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+
+[ 2014-05-31T09:45:05+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000972s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001114s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000632s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.006069s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002318s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000273s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013193s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013336s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000521s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000489s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000338s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002118s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000900s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000994s ]
+
+[ 2014-05-31T09:45:15+08:00 ] 127.0.0.1 /index.php/Admin/login
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001084s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001214s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+
+[ 2014-05-31T09:45:15+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004803s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002156s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000376s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013875s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014016s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000600s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000568s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000457s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002427s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000806s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2014-05-31T09:48:07+08:00 ] 127.0.0.1 /index.php/Admin/resultview
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002309s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003197s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003390s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `scanrecord` LIMIT 1   [ RunTime:0.002135s ]
+SQL: SELECT * FROM `scanrecord` ORDER BY id desc LIMIT 0,12   [ RunTime:0.000396s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019232s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002333s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001219s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001413s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006527s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001728s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001809s ]
+
+[ 2014-05-31T09:48:12+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003152s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003592s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.006031s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.002143s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: plugin E:\web tools\wamp\www\PluginDetect\TempCache\014f82cb7f6033f0d8d30d48ace20240.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018286s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018417s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.004000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002079s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011462s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001983s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002106s ]
+
+[ 2014-05-31T09:48:52+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001066s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002840s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004760s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.002199s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: plugin E:\web tools\wamp\www\PluginDetect\TempCache\014f82cb7f6033f0d8d30d48ace20240.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014269s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001898s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000565s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003536s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001141s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001220s ]
+
+[ 2014-05-31T09:49:29+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001989s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002134s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002390s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004215s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.002165s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: plugin E:\web tools\wamp\www\PluginDetect\TempCache\014f82cb7f6033f0d8d30d48ace20240.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017413s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017538s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002484s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001447s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001233s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006938s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001607s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001687s ]
+
+[ 2014-05-31T09:49:52+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001904s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002393s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.003957s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.001747s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: plugin E:\web tools\wamp\www\PluginDetect\TempCache\014f82cb7f6033f0d8d30d48ace20240.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019681s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019806s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002442s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001343s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001212s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001396s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006614s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001649s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001735s ]
+
+[ 2014-05-31T09:50:22+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001863s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001989s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004929s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.001828s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: plugin E:\web tools\wamp\www\PluginDetect\TempCache\014f82cb7f6033f0d8d30d48ace20240.php 第 92 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017151s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017276s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002585s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001344s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001289s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001640s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007161s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001764s ]
+
+[ 2014-05-31T09:53:03+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002509s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002681s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003199s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004072s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.002397s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016653s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001436s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001207s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001461s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005836s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001570s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2014-05-31T09:53:50+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002005s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003888s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004012s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.001961s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019402s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002381s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001495s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001199s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006725s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001528s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001605s ]
+
+[ 2014-05-31T09:54:50+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000941s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001059s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.004004s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.001904s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011916s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000458s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000364s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002065s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\web tools\wamp\www\ThinkPHP\Common\functions.php:97) E:\web tools\wamp\www\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000661s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2014-05-31T09:55:26+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001981s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002207s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.004832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005011s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005816s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.002498s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015933s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016098s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001818s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000496s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000330s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000558s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003418s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000706s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2014-05-31T09:55:32+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=226
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002465s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002601s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002512s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.006090s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="226" )  [ RunTime:0.003519s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021651s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003856s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001425s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001208s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001458s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008246s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001550s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2014-05-31T09:55:38+08:00 ] 127.0.0.1 /index.php/Admin/detail?id=227
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002255s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002396s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001610s ]
+SQL: SHOW COLUMNS FROM `scanrecord` [ RunTime:0.005964s ]
+SQL: SELECT * FROM `scanrecord` WHERE ( id="227" )  [ RunTime:0.004344s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.018524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018743s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.003064s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001657s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001701s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001917s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008772s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001659s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001758s ]
+
