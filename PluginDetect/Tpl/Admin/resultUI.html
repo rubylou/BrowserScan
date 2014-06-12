@@ -58,22 +58,22 @@
       .Macintosh:before { background-color: rgba(220,220,220,0.5); }
       .Linux:before { background-color: #7D4F6D; }
 
-      .AdobeReader:before { background-color: #87CEEB; }
-      .DevalVR:before { background-color: #F5F5F5; }
-      .Flash:before { background-color: #9370D8; }
-      .Java:before { background-color: #C71585; }
-      .QuickTime:before { background-color: #FFD700; }
-      .RealPlayer:before { background-color: #FF8C00; }
-      .Shockwave:before { background-color: #949FB1; }
-      .SilverLight:before { background-color: #E6E6FA; }
-      .WMP:before { background-color: #006633; }
-      .VLC:before { background-color: #4D5360; }
-      .Xunlei:before { background-color: #F7464A; }
-      .Alipay:before { background-color: #E2EAE9; }
-      .QQmail:before { background-color: #D4CCC5; }
-      .UPEditor:before { background-color: #949FB1; }
-      .Baofeng:before { background-color: #FF99CC; }
-      .Kugou:before { background-color: #7D4F6D; }
+      .AdobeReader:before { background-color: #3498DB; }
+      .DevalVR:before { background-color: #66CCFF; }
+      .Flash:before { background-color: #99CCFF; }
+      .Java:before { background-color: #9B59B6; }
+      .QuickTime:before { background-color: #FF99CC; }
+      .RealPlayer:before { background-color: #F1C40F; }
+      .Shockwave:before { background-color: #F39C12; }
+      .SilverLight:before { background-color: #D35400; }
+      .WMP:before { background-color: #E74C3C; }
+      .VLC:before { background-color: #C0392B; }
+      .Xunlei:before { background-color: #34495E; }
+      .Alipay:before { background-color: #7F8C8D; }
+      .QQmail:before { background-color: #BDC3C7; }
+      .UPEditor:before { background-color: #99CC99; }
+      .Baofeng:before { background-color: #2ECC71; }
+      .Kugou:before { background-color: #1ABC9C; }
 
     </style>
 	</head>
@@ -195,7 +195,7 @@
             label[i] = a[i]['browser'];
             datalabel_windows[i] = parseInt(a[i]['Windows']);
             datalabel_mac[i] = parseInt(a[i]['Macintosh']);
-            datalabel_linux[i] = parseInt(a[i]['linux']);
+            datalabel_linux[i] = parseInt(a[i]['Linux']);
           }
 
           var data = {
@@ -295,67 +295,67 @@
         var data = [
           {
             value: datalabel[0],
-            color:"#87CEEB"
+            color:"#3498DB"
           },
           {
             value : datalabel[1],
-            color : "#F5F5F5"
+            color : "#66CCFF"
           },
           {
             value : datalabel[2],
-            color : "#9370D8"
+            color : "#99CCFF"
           },
           {
             value : datalabel[3],
-            color : "#C71585"
+            color : "#9B59B6"
           },
           {
             value : datalabel[4],
-            color : "#FFD700"
+            color : "#FF99CC"
           },
            {
             value: datalabel[5],
-            color:"#FF8C00"
+            color:"#F1C40F"
           },
           {
             value : datalabel[6],
-            color : "#949FB1"
+            color : "#F39C12"
           },
           {
             value : datalabel[7],
-            color : "#E6E6FA"
+            color : "#D35400"
           },
           {
             value : datalabel[8],
-            color : "#006633"
+            color : "#E74C3C"
           },
           {
             value : datalabel[9],
-            color : "#4D5360"
+            color : "#C0392B"
           }, 
           {
             value: datalabel[10],
-            color:"#F7464A"
+            color:"#34495E"
           },
           {
             value : datalabel[11],
-            color : "#E2EAE9"
+            color : "#7F8C8D"
           },
           {
             value : datalabel[12],
-            color : "#D4CCC5"
+            color : "#BDC3C7"
           },
           {
             value : datalabel[13],
-            color : "#949FB1"
+            color : "#99CC99"
           },
           {
             value : datalabel[14],
-            color : "#FF99CC"
+            color : "#2ECC71"
           },
           {
             value : datalabel[15],
-            color : "#7D4F6D"
+            color : "#1ABC9C"
           }
         ];
         var myNewChart = new Chart(ctx).Doughnut(data,null);
