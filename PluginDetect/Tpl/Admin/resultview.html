@@ -60,6 +60,7 @@
 	<div class="container">
 		<div class="masthead">
 			<ul class="nav nav-pills pull-right">
+				<li><a href="__URL__/resultUI">统计</a></li>
 				<li><a href="__URL__/index">退出</a></li>
 			</ul>
 			<img src="__PUBLIC__/detectsources/browserscan.png" alt="BrowserScan"></img>

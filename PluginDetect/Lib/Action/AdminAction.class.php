@@ -14,6 +14,79 @@ class AdminAction extends Action {
         //header("location: resultview"); 
     }
 
+    public function resultUI(){
+        $model = new Model();
+        $windows = $model->query("select browser, os, count(*) from scanrecord 
+            where os like '%Windows%' group by browser");
+        $mac = $model->query("select browser,os,count(*) from scanrecord where
+            os like '%Macintosh%' group by browser");
+        $linux = $model->query("select browser,os,count(*) from scanrecord where
+            os like '%Linux%' group by browser");
+
+        //dump($windows);
+        //dump($mac);
+        //dump($linux);
+
+        $browserlist = array('IE','Chrome','Firefox','Safari','Opera','Maxthon');
+        for($i=0;$i<count($browserlist);$i++){
+            $os_count[$i]['browser'] = $browserlist[$i];
+            $os_count[$i]['Windows'] = 0;
+            $os_count[$i]['Macintosh'] = 0;
+            $os_count[$i]['Linux'] = 0;
+
+        }
+
+        for($i=0;$i<count($windows);$i++){
+            $index = array_search($windows[$i]['browser'], $browserlist);
+            $os_count[$index]['Windows'] = $windows[$i]['count(*)'];
+            
+        }
+
+        for($i=0;$i<count($mac);$i++){
+            $index = array_search($mac[$i]['browser'], $browserlist);
+            $os_count[$index]['Macintosh'] = $mac[$i]['count(*)'];
+            
+        }
+
+        for($i=0;$i<count($linux);$i++){
+            $index = array_search($linux[$i]['browser'], $browserlist);
+            $os_count[$index]['Linux'] = $linux[$i]['count(*)'];
+            
+        }
+
+        if($os_count){
+            $this->os = json_encode($os_count);
+        }
+        else {
+            $this->os = json_encode(null);
+        }
+        
+
+        $day_count = $model->query("select DATE(TIMESTAMP) AS 'date', 
+            COUNT(DATE(TIMESTAMP)) AS 'sum' FROM scanrecord GROUP BY DATE(TIMESTAMP)");
+        //dump($day_count);
+        if($day_count){
+            $this->day = json_encode($day_count);
+        }
+        else {
+            $this->day = json_encode(null);
+        }
+
+        $pluginlist = array("reader","dvr","flash","java","qt","rp","shock",
+        "silver","wmp","vlc","xunlei","alipay","qqmail","upeditor","baofeng","kugou");
+        foreach($pluginlist as $key => $value){
+            $plugin = $model->query("select count(*) from scanrecord where plugininfo like '%".$pluginlist[$key]."%'");
+            $plugin_count[$key] = $plugin[0]['count(*)'];
+        }
+        if($plugin_count){
+            $this->plugin = json_encode($plugin_count);
+        }
+        else {
+            $this->plugin = json_encode(null);
+        }
+        //dump($plugin_count);
+        $this->display();
+    }
     public function resultview(){
         //unset($cache->user); // 删除缓存
         //unset($cache->pwd); // 删除缓存
